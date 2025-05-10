@@ -458,8 +458,6 @@ section h2::after {
 }
 
 
-/* Adicione estas regras ao seu CSS existente */
-
 .projeto-card {
   display: flex; /* Torna o card um container flex */
   flex-direction: column; /* Empilha os elementos verticalmente */
