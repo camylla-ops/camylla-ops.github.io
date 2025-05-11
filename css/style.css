@@ -475,7 +475,14 @@ section h2::after {
   margin-top: auto; /* Empurra os links para a parte inferior */
   padding-top: 1rem; /* Espaçamento opcional acima dos botões */
 }
-
+.projeto-imagem {
+  width: 100%;
+  height: auto; /* altura ajusta automaticamente */
+  max-height: 300px; /* impede que fique muito alta */
+  object-fit: contain; /* mantém a imagem inteira */
+  border-radius: 10px;
+  margin: 1rem 0;
+}
 
 /* ---------------------------------------------------------------------------
    Seção de Contato
